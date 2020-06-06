@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+
+	<link rel="stylesheet" href="css/pepper-grinder/jquery-ui-1.10.3.custom.min.css">
+	<link rel="stylesheet" href="css/c09.css">
+
+	<title>Jquery UI Accordion</title>
+</head>
+<body>
+	
+	<div id="prizes">
+		<ul>
+			<li><a href="#tab-1">1st Prize</a></li>
+			<li><a href="#tab-2">2nd Prize</a></li>
+			<li><a href="#tab-3">3rd Prize</a></li>
+		</ul>
+		<div id="tab-1">
+			<p>First prize is the DJI...</p>
+		</div>
+		<div id="tab-2">
+			<p>Second prize is the ...</p>
+		</div>
+		<div id="tab-3">
+			<p>Third prize is a ...</p>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script>
+		$(function() {
+			$('#prizes').tabs();
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" href="css/c09.css">
+
+	<title>Jquery UI Accordion</title>
+</head>
+<body>
+	
+	<div id="prizes">
+		<h3>1st Prize</h3>
+		<div>
+			<p>First prize is the DJI...</p>
+		</div>
+		<h3>2nd Prize</h3>
+		<div>
+			<p>Second prize is the ...</p>
+		</div>
+		<h3>3rd Prize</h3>
+		<div>
+			<p>Third prize is a ...</p>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script>
+		$(function() {
+			$('#prizes').accordion();
+		});
+	</script>
+</body>
+</html>
